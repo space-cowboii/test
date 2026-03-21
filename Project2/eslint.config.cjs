@@ -1,7 +1,6 @@
-// eslint.config.cjs
 module.exports = [
   {
-    files: ["**/*.js"], // проверяем все JS-файлы
+    files: ["**/*.js"],
     languageOptions: {
       parserOptions: {
         ecmaVersion: 6,
