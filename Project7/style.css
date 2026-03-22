@@ -1,0 +1,24 @@
+
+button {
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #008127;
+    color: white;
+    font-size: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+        
+}
+
+button:hover {
+    background-color: rgb(14, 111, 25);
+    transform: scale(1.05);    
+}
+
+a {
+    margin-top: 20;
+    position: relative;
+    display: block;
+}

@@ -1,0 +1,66 @@
+.heart {
+    position: relative;
+    width: 100px; 
+    height: 80px;
+    display: inline-block;
+}
+.heart:before, 
+.heart:after {
+    content: "";
+    position: absolute; 
+    left: 50px; 
+    top: 0;
+    width: 50px; 
+    height: 80px;
+    background: #EE4156;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    transform: rotate(45deg); 
+    transform-origin: 100% 100%;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.circle {
+    position:relative;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+        
+}
+
+button:hover {
+    background-color: black;
+    transform: scale(1.05);    
+}
+
+.black {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
